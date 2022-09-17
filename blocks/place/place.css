@@ -1,0 +1,50 @@
+.place {
+  display: grid;
+  width: 100%;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+  grid-template-rows: minmax(min-content, max-content) minmax(min-content, 460px);
+  row-gap: 48px;
+  column-gap: 40px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, 440px);
+    row-gap: 48px;
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, 340px);
+    row-gap: 48px;
+    column-gap: 28px;
+    box-sizing: border-box;
+
+  }
+}
+
+/* ввёл дополнительное правило для 600px, так как при разрещении между 320 и 600px  выглядит неаккуратно*/
+
+@media screen and (max-width: 600px) {
+  .place {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 32px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 32px;
+    align-items: center;
+  }
+}
+

@@ -1,0 +1,17 @@
+.cover__titles {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 32px;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__titles {
+    max-width: 288px;
+    gap: 16px;
+  }
+}

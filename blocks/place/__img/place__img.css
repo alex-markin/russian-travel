@@ -1,0 +1,13 @@
+.place__img {
+  object-fit: contain;
+  grid-column: 1/1;
+  grid-row: 2/2;
+  width: 100%;
+
+}
+
+@media screen and (max-width: 600px) {
+  .place__img  {
+  max-width: 90%;
+  }
+}

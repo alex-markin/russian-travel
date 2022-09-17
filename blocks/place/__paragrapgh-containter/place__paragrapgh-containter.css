@@ -2,6 +2,8 @@
   grid-column: 2/2;
   grid-row: 2/2;
   align-content: end;
+  width: 100%;
+  margin: 0 0 0 0;
 }
 
 
@@ -9,14 +11,13 @@
 @media screen and (max-width: 768px) {
   .place__paragrapgh-containter {
     font-size: 16px;
-    margin: 0 0 25px 0;
-
   }
 }
 
 @media screen and (max-width: 600px) {
   .place__paragrapgh-containter  {
   max-width: 90%;
+  order: 4;
   }
 }
 

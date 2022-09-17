@@ -7,7 +7,6 @@
   text-align: center;
   max-width: 560px;
   margin: 0;
-  stop-opacity: unset;
 }
 
 
@@ -22,7 +21,6 @@
 @media screen and (max-width: 320px) {
   .cover__title {
     font-size: 32px;
-    line-height: 109%;
 
   }
 }

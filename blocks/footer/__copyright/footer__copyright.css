@@ -16,10 +16,8 @@
   }
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 320px) {
   .footer__copyright {
     max-width: 320px;
-    align-self: flex-start;
-    line-height: 100%;
   }
 }
